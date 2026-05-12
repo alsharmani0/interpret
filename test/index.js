@@ -51,6 +51,7 @@ function cleanup() {
 // These modules need newer node features
 var minVersions = {
   '@mdx-js/register': { major: 12 },
+  'tsx/dist/cjs/index.cjs': { major: 18 },
 };
 
 var maxVersions = {};
